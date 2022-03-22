@@ -1,4 +1,5 @@
 package com.example.kotlinbasics
+
 fun main() {
     /* val age =19
 
@@ -33,14 +34,16 @@ var month = 3
         in 12 downTo 2 -> println("Spring")
 
     }
-}*/
+}
 
-    var x: Any = 13.25.toInt()
+    var x : Any  = "Anshu Kumar Singh"
     when (x) {
        is Double -> println("$x is double")
         is String -> println("$x is String")
         is Int -> println("$x is int")
-    }
+        is Float -> println("$x is float")
+    }*/
+
 }
 
 
