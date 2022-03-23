@@ -1,14 +1,15 @@
 package com.example.kotlinbasics
 
-import java.util.*
-
 fun main() {
-    MobilePhone("Android", "Realme", "Realme XT")
+    Mobile("Android", "Samsung", "Galaxy S20 Ultra")
+    Mobile("IOS", "Apple", "Iphone 12")
 }
-class MobilePhone(osName: String, brand: String, model: String){
+class Mobile(OSname:String,brand:String,model:String) {
     init {
-        println("OSname : $osName")
-        println("Brand : $brand")
-        println("Model : $model")
+        println("Mobile: $OSname")
+        println("Mobile: $brand")
+        println("Mobile: $model")
+
     }
+
 }
