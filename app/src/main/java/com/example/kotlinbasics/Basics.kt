@@ -1,52 +1,14 @@
 package com.example.kotlinbasics
 
+import java.util.*
+
 fun main() {
-    /* val age =19
-
-    if (age >= 21){
-        println("Now you may drink in the INDIA")
-    }else if (age >=18){
-        println("You can Vote")
-
-    }else if (age<=16){
-        println("you can Drive")
-    }
-    else{
-        println("You're too young")
-    }
-
-var Season = 4
-    when(Season){
-        1-> println("Summer")
-        2-> println("Winter")
-        3-> println("Spring")
-        4-> {
-            println("Fall")
-            println("Rainy")
-        }
-    }
-
-var month = 3
-    when(month){
-      in 3..5 -> println("Summer")
-      in 6..8 -> println("Rainy")
-      in 9..11 -> println("Winter")
-        in 12 downTo 2 -> println("Spring")
-
+    MobilePhone("Android", "Realme", "Realme XT")
+}
+class MobilePhone(osName: String, brand: String, model: String){
+    init {
+        println("OSname : $osName")
+        println("Brand : $brand")
+        println("Model : $model")
     }
 }
-
-    var x : Any  = "Anshu Kumar Singh"
-    when (x) {
-       is Double -> println("$x is double")
-        is String -> println("$x is String")
-        is Int -> println("$x is int")
-        is Float -> println("$x is float")
-    }*/
-
-}
-
-
-
-
-
